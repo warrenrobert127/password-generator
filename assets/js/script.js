@@ -16,12 +16,7 @@ var alphaLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m
 var numeric = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var symbols = ["!", "@", "#", "$", "%", "^", "*", "&", "(", ")"];
 
-// const randomFunc = {
-//   lower: getRandomLower,
-//   upper: getRandomUpper,
-//   number: getRandomNumber,
-//   symbol: getRandomSymbol
-// };
+
 
 //Generates a random lowercase character
 function getRandomLower() {
