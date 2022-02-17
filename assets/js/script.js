@@ -145,16 +145,16 @@ function generatePassword() {
 
     // console.log(choices);
     console.log(newPass)
-    //   console.log(symbolRandom);  
+
     //   getRandomUpper();
     // getRandomNumber()
     // getRandomSymbol();
     // // console.log(passLength);
-    // console.log(lowerCase);
-    // console.log(upperCase);
+     console.log(lowerCase);
     // // console.log(numeric);
     // console.log(passCond);
     // console.log(passLength);
+    console.log(upperCase);
     window.alert(newPass)
     passCond = ""
 };
@@ -181,3 +181,14 @@ generateBtn.addEventListener("click", function() {
  
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+
+ // Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
