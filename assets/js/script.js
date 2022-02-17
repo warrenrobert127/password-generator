@@ -184,3 +184,5 @@ generateBtn.addEventListener("click", function() {
  getRandomNumber()
  getRandomSymbol();
  
+// Get references to the #generate element
+var generateBtn = document.querySelector("#generate");
