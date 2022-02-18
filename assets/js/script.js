@@ -146,14 +146,11 @@ function generatePassword() {
     // console.log(choices);
     console.log(newPass)
 
-    //   getRandomUpper();
-    // getRandomNumber()
-    // getRandomSymbol();
-    // // console.log(passLength);
+    
      console.log(lowerCase);
-    // // console.log(numeric);
-    // console.log(passCond);
-    // console.log(passLength);
+     console.log(numeric);
+
+ console.log(passLength);
     console.log(upperCase);
     window.alert(newPass)
     passCond = ""
