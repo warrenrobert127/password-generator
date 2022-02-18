@@ -18,7 +18,7 @@ var symbols = ["!", "@", "#", "$", "%", "^", "*", "&", "(", ")"];
 
 
 
-//Generates a random lowercase character
+//Generates a random lowercase characters
 function getRandomLower() {
     // 
     var getRandomLower = confirm("Would you like to include lower case letters?")
@@ -31,7 +31,7 @@ function getRandomLower() {
     }
 
 };
-// console.log(passCond)
+
 // Generates a random uppercase character
 function getRandomUpper() {
     
@@ -47,11 +47,11 @@ function getRandomUpper() {
 
 // Generates a random number 0-9
 function getRandomNumber() {
-    // first attempt
-    // var getRandomNumber = String.fromCharCode(Math.floor(Math.random() * 10 + 48));
-    // numeric = getRandomNumber;
-    // return numeric;
-    //second attempt
+   
+    var getRandomNumber = String.fromCharCode(Math.floor(Math.random() * 10 + 48));
+    numeric = getRandomNumber;
+     return numeric;
+    
     var getRandomNumber = confirm("Would you like to add numbers?")
     if (getRandomNumber === true) {
         var choice = "numbers    "
@@ -62,11 +62,11 @@ function getRandomNumber() {
     }
 };
 
-// Generates a random symbol
+// Generates a random symbols
 function getRandomSymbol() {
-    // var length = 1
-    // var charset = "!@#$%^&*(){}[]=<>/,.";
-    // symbolRandom = "";
+    var length = 1
+     var charset = "!@#$%^&*(){}[]=<>/,.";
+     symbolRandom = "";
     var getRandomSymbol = confirm("Would you like to add symbols?");
     if (getRandomSymbol === true) {
         // for (var i = 0, n = charset.length; i < length; ++i) {
@@ -78,7 +78,7 @@ function getRandomSymbol() {
 			passCond = passCond;
 		}
         
-        // return passCond;
+         return passCond;
 
 
 };
