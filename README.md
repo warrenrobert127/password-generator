@@ -10,4 +10,4 @@ github repo: https://github.com/warrenrobert127/password-generator
 
 screenshot
 
-![image]((https://user-images.githubusercontent.com/20363030/154619590-e83fb3eb-9d80-40d8-a718-5e9abc39a6ad.png)
+![image](https://user-images.githubusercontent.com/20363030/154619590-e83fb3eb-9d80-40d8-a718-5e9abc39a6ad.png)
